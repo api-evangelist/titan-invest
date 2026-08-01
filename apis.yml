@@ -1,8 +1,30 @@
 aid: titan-invest
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/titan-invest.png
 name: Titan Invest
-description: Titan Invest is a company surfaced as a portfolio company of general-catalyst and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Titan (titan.com), operating the brand Titan Invest, is a wealth management
+  firm founded in 2017 and headquartered in New York City that serves
+  high-performing technology professionals. Titan combines AI-assisted
+  technology with dedicated human wealth teams to deliver actively managed
+  portfolios, direct indexing and equity-diversification strategies, tax
+  planning, and financial advisory for pre- and post-IPO tech employees,
+  charging a 0.4% annual advisory fee. The company reports managing roughly
+  $1.2B in assets for more than 10,000 clients and is backed by General
+  Catalyst. Titan delivers its service through consumer web and mobile
+  applications and advisor relationships; it does not publish a public
+  developer API, SDKs, or a developer portal, so this profile captures the
+  company identity and domain-security posture rather than an API surface.
 url: https://raw.githubusercontent.com/api-evangelist/titan-invest/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +34,32 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Wealth Management
+- Investment
+- Fintech
+- Financial Services
+- Asset Management
+- Robo Advisor
 apis: []
+common:
+- type: Website
+  url: https://www.titan.com/
+- type: TermsOfService
+  url: https://www.titan.com/terms
+- type: Blog
+  url: https://www.titan.com/blog
+- type: DomainSecurity
+  url: security/titan-invest-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
