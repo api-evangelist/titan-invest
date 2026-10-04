@@ -51,7 +51,7 @@ tags:
 - Wealth Management
 - Investment
 - Fintech
-- Financial-Services
+- Financial Services
 - Asset Management
 - Robo-Advisor
 tags_raw:
@@ -62,6 +62,7 @@ tags_raw:
 - Financial Services
 - Asset Management
 - Robo Advisor
+- Financial-Services
 apis: []
 common:
 - type: Website
