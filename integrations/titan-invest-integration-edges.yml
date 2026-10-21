@@ -30,6 +30,35 @@ edges:
     detected: '2026-10-18'
   detected_by: sweep-asset-management.py
   first_seen: '2026-10-18'
+- partner_name: Andreessen Horowitz (a16z)
+  partner: a16z
+  partner_match: register
+  type: register
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://a16z.com/companies/titan/
+  category: vc portfolio participation
+  contract_reference:
+    register: a16z portfolio (a16z.com/portfolio/, the page's own data-companies JSON)
+    standard: null
+    spec_file: null
+    role: vc-portfolio-company
+    registered_name: Titan
+    register_id: https://a16z.com/companies/titan/
+    register_country: null
+    register_website: https://titan.com
+    matched_domain: titan.com
+    matched_by: domain
+    signal_note: 'participation only: the venture firm''s own published portfolio lists the company (investment);
+      an ownership and participation record, not conformance or certification'
+    detected_by: sweep-vc-portfolios.py
+    detected: '2026-10-21'
+    year: '2021'
+    status: Active
+    sector: Fintech;Growth
+  detected_by: sweep-vc-portfolios.py
+  first_seen: '2026-10-21'
 generated: '2026-10-18'
 method: searched
 source:
@@ -38,3 +67,9 @@ source:
 checked:
 - https://reports.adviserinfo.sec.gov/reports/CompilationReports/IA_FIRM_SEC_Feed_10_17_2026.xml.gz
 - https://www.wealthbox.com/wp-json/wp/v2/integrations?per_page=100&page=1
+- https://a16z.com/portfolio/
+- https://www.battery.com/company/
+- https://www.battery.com/wp-admin/admin-ajax.php
+- https://www.indexventures.com/companies/
+- https://www.sequoiacap.com/our-companies/
+- https://www.sequoiacap.com/sitemap.xml
